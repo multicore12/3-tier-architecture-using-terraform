@@ -7,12 +7,15 @@ Make sure you have your AWS credentials configured. You can either set environme
 
 Step 3: Write Terraform Configuration
 Create a new directory for your Terraform configuration and create a file named main.tf with the following 
+
 Step 4: Initialize Terraform
 Open a terminal, navigate to the directory containing your main.tf file, and run:
 terraform init
+
 Step 5: Preview the Changes
 Run the following command to see what Terraform plans to do:
 terraform plan
+
 Step 6: Apply the Changes
 If the plan looks good, apply the change
 terraform apply
